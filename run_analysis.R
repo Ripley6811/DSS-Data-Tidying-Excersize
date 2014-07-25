@@ -1,9 +1,11 @@
 library(plyr)
 
 
-## This function accepts one parameter: filedir.
-## filedir is the "UCI HAR Dataset" directory containing data files
+## This function accepts two parameters:
+## "filedir" is the "UCI HAR Dataset" directory containing data files
 ## and folders.
+## "write2file" is a boolean with default as TRUE. Set to FALSE
+## to prevent output of the tidy data set to two *.txt files.
 
 run_analysis = function(filedir, write2file=TRUE){
   ## Save the current working directory.
@@ -50,9 +52,12 @@ run_analysis = function(filedir, write2file=TRUE){
   
   ## Create a list of lists of averages
   tidy.list = list()
-  for(act in split(X, X$Activity)) {
-    for(subj in split(act, act$Subjects)) {
-      tidy.list[[length(tidy.list)+1]] = c(act$Activity[1], subj$Subjects[1], colMeans(subj[1:66]))
+  for(act in split(X, X$Activity)) { ## Per activity
+    for(subj in split(act, act$Subjects)) { ## Per individual
+      ## Append row of column means (colMeans) to list.
+      tidy.list[[length(tidy.list)+1]] = c(act$Activity[1], 
+                                           subj$Subjects[1], 
+                                           colMeans(subj[1:66]))
     }
   }
   
@@ -68,18 +73,20 @@ run_analysis = function(filedir, write2file=TRUE){
   
   ## Write data set to files in the working directory if parameter is TRUE.
   if(write2file){
-    ## Write the column names for the new data.frame to file.
-    col.filename = "tidy_data_labels.txt"
-    if(file.exists(col.filename)){
-      file.remove(col.filename)
-    }
-    for(i in 1:length(names(tidy.data))) { 
-      write(paste(i, names(tidy.data)[i]), 
-            col.filename, append=TRUE) 
-    }
+    ### Write the column names for the new data.frame to file.
+    #col.filename = "tidy_data_labels.txt"
+    ### Delete old file if it already exists.
+    #if(file.exists(col.filename)){
+    #  file.remove(col.filename)
+    #}
+    ### Append each column number and label as a new row in file.
+    #for(i in 1:length(names(tidy.data))) { 
+    #  write(paste(i, names(tidy.data)[i]), 
+    #        col.filename, append=TRUE) 
+    #}
     
-    ## Write the data.frame to a new file without col and row names.
-    write.table(tidy.data, "tidy_data.txt", row.names=FALSE, col.names=FALSE)
+    ## Write the data.frame to a new file without row names.
+    write.table(tidy.data, "tidy_data.txt", row.names=FALSE, col.names=TRUE)
   }
   
   ## Return tidy data set.
