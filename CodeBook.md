@@ -1,4 +1,4 @@
-1. Activity
+###### 1. Activity
     - Human Activity: Factor w/ 6 levels
     
             1 WALKING
@@ -11,7 +11,7 @@
 2. Subject-ID
     - Subject/Participant identification number: numeric
         
-    1-30    (30 subjects participated in this research)
+        1-30    (30 subjects participated in this research)
         
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y
