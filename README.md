@@ -38,5 +38,6 @@ Files included are:
     This is where the "test" and "train" folders are located.
         
     **Usage**:
+    
         dirpath = "C:/Users/.../getdata-005/UCI HAR Dataset"
         run_analysis( dirpath )
