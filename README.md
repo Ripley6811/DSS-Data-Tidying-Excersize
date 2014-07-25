@@ -18,7 +18,7 @@ Files included are:
     
 - *CodeBook.md*
 
-    Verbose version of tidy_data_columns.txt that describes the format of the data and how it was derived.
+    Describes the format of the data columns and how it was derived.
     
 - *run_analysis.R*
 
