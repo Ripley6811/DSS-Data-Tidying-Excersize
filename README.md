@@ -13,12 +13,8 @@ Files included are:
 
 - *tidy_data.txt*
 
-    A space delimited data file. 180 rows and 68 columns. Displays the averages for each variable in the 
+    A space delimited data file. 1 header row, 180 data rows and 68 columns (181x68). Displays the averages for each variable in the 
     original data set. Ordered by activity then subject ID (first two columns respectively). Total of 6 activities and 30 subjects (180 rows).
-    
-- *tidy_data_labels.txt*
-
-    A space delimited data file. 68 rows and 2 columns. Correlates the column number with a more descriptive label.
     
 - *CodeBook.md*
 
