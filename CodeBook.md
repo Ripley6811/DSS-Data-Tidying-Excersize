@@ -17,6 +17,12 @@
             1-30    (30 subjects participated in this research)
         
 3. tBodyAcc-mean()-X
+    - Averaged value for the mean of body acceleration in the X direction.
+    
+            [-1,1]  (features were normalized to within -1.0 to 1.0)
+
+            All columns listed below are similarly defined. See the README.txt found with the orginal data files.
+            
 4. tBodyAcc-mean()-Y
 5. tBodyAcc-mean()-Z
 6. tBodyAcc-std()-X
