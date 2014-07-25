@@ -72,19 +72,7 @@ run_analysis = function(filedir, write2file=TRUE){
   setwd(original.dir)
   
   ## Write data set to files in the working directory if parameter is TRUE.
-  if(write2file){
-    ### Write the column names for the new data.frame to file.
-    #col.filename = "tidy_data_labels.txt"
-    ### Delete old file if it already exists.
-    #if(file.exists(col.filename)){
-    #  file.remove(col.filename)
-    #}
-    ### Append each column number and label as a new row in file.
-    #for(i in 1:length(names(tidy.data))) { 
-    #  write(paste(i, names(tidy.data)[i]), 
-    #        col.filename, append=TRUE) 
-    #}
-    
+  if(write2file){    
     ## Write the data.frame to a new file without row names.
     write.table(tidy.data, "tidy_data.txt", row.names=FALSE, col.names=TRUE)
   }
