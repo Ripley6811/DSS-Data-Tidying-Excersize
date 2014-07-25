@@ -1,4 +1,4 @@
-### Code Book: Human Activity Detection - Tidy Data Set
+#### Code Book - Human Activity Detection: Tidy Data Set
 
 1. Activity
     - Human Activity: Factor w/ 6 levels
