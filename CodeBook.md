@@ -1,6 +1,6 @@
 1 - Activity
 
-    Human Activity: Factor w/ 6 levels
+  Human Activity: Factor w/ 6 levels
     
     1. WALKING
     2. WALKING_UPSTAIRS
