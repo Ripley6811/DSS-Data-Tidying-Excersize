@@ -26,6 +26,14 @@ Files included are:
     
 - *run_analysis.R*
 
-    The code that merges the testing and training data, extracts the mean and std data, and creates a new data set with the averages of all mean and std data columns for each activity-subject combination.
+    Contains one method which merges the testing and training data, extracts the mean and std data, and creates a new data set with the averages of all mean and std data columns for each activity-subject combination.
     Also creates the files "tidy_data.txt" and "tidy_data_labels.txt".
     **Returns a data.frame** for the new tidy data set.
+
+    **Requires**: plyr
+    
+    **Method**: run_analysis(filedir)
+        
+        *filedir*: The "UCI HAR Dataset" path. ("C:/Users/.../getdata-005/UCI HAR Dataset").
+        This is where the "test" and "train" folders are located.
+        
