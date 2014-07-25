@@ -1,4 +1,4 @@
-1. Activity
+1 - Activity
 
     Human Activity: Factor w/ 6 levels
     
