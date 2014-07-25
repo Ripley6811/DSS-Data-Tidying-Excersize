@@ -3,7 +3,7 @@ getdata-005_CourseProject
 
 Coursera Course Project files
 
-These are notes on the "tidy data set" created for a Coursera course project.
+These are notes on the files created for a Coursera course project.
 
 Files included are:
 
