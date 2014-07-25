@@ -22,7 +22,8 @@
     
             [-1,1]  (features were normalized to within -1.0 to 1.0)
 
-            All columns listed below are similarly defined. See the README.txt found with the orginal data files for further explanation of the label meaning.
+            All columns listed below are similarly defined. See the README.txt found 
+            with the orginal data files for further explanation of the label meaning.
             
 4. tBodyAcc-mean()-Y
 5. tBodyAcc-mean()-Z
