@@ -9,8 +9,8 @@
             6 LAYING
 
 2. Subject-ID
-    Subject/Participant identification number: numeric
-        1-30    (30 subjects participated in this research)
+    - Subject/Participant identification number: numeric
+            1-30    (30 subjects participated in this research)
         
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y
