@@ -43,4 +43,4 @@ Files included are:
         ## Create output files for tidy data set and column labels.
         run_analysis( dirpath )
         ## Get tidy data set without creating files.
-        tidy.data = run_analysis( dirpath, write2file=FALSE )
+        tidy.data <- run_analysis( dirpath, write2file=FALSE )
