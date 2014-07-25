@@ -40,4 +40,7 @@ Files included are:
     **Usage**:
     
         dirpath = "C:/Users/.../getdata-005/UCI HAR Dataset"
+        ## Create output files.
         run_analysis( dirpath )
+        ## Get tidy data set without creating files.
+        tidy.data = run_analysis( dirpath, write2file=FALSE )
