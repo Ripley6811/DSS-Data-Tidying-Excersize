@@ -1,5 +1,4 @@
-| Human Activity Detection        |
-|:---:|
+## Human Activity Detection        
 
 1. Activity
     - Human Activity: Factor w/ 6 levels
