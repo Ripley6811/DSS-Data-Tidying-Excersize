@@ -1,5 +1,6 @@
 #### Code Book - Human Activity Detection: Tidy Data Set
-##### Organized by data set columns 1 through 68.
+##### Organized by data set columns: 1 through 68.
+###### Columns 3 to 68 are averaged values of all mean/std for a particular activity and subject.
 
 1. Activity
     - Human Activity: Factor w/ 6 levels
