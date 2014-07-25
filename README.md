@@ -27,3 +27,5 @@ Files included are:
 - *run_analysis.R*
 
     The code that merges the testing and training data, extracts the mean and std data, and creates a new data set with the averages of all mean and std data columns for each activity-subject combination.
+    Also creates the files "tidy_data.txt" and "tidy_data_labels.txt".
+    _Returns a data.frame_ for the new tidy data set.
