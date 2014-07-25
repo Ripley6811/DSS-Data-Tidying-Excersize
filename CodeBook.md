@@ -1,13 +1,13 @@
-1 - Activity
+1. Activity
 
-  Human Activity: Factor w/ 6 levels
+  - Human Activity: Factor w/ 6 levels
     
-    1. WALKING
-    2. WALKING_UPSTAIRS
-    3. WALKING_DOWNSTAIRS
-    4. SITTING
-    5. STANDING
-    6. LAYING
+  1. WALKING
+  2. WALKING_UPSTAIRS
+  3. WALKING_DOWNSTAIRS
+  4. SITTING
+  5. STANDING
+  6. LAYING
         
 2. Subject-ID
     Subject/Participant identification number: numeric
