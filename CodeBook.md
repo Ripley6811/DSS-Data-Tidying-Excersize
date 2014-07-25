@@ -3,7 +3,7 @@
 ###### Columns 3 to 68 are averaged values of all mean/std for a particular activity and subject.
 
 1. Activity
-    - Human Activity: Factor w/ 6 levels
+    - Human Activity: Factor w/ 6 levels (Text-format if read from file.)
     
             1 WALKING
             2 WALKING_UPSTAIRS
