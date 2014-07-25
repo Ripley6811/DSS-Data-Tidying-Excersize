@@ -32,7 +32,6 @@ Files included are:
 
     The new data set contains the averages of all mean and std data columns for each activity-subject combination.
     Optionally outputs the new data set to the file "tidy_data.txt".
-    
     **Returns a data.frame** for the new tidy data set.
 
     **Requires**: plyr
