@@ -34,6 +34,6 @@ Files included are:
     
     **Method**: run_analysis(filedir)
         
-        *filedir*: The "UCI HAR Dataset" path. ("C:/Users/.../getdata-005/UCI HAR Dataset").
-        This is where the "test" and "train" folders are located.
+    *filedir*: The "UCI HAR Dataset" path. ("C:/Users/.../getdata-005/UCI HAR Dataset").
+    This is where the "test" and "train" folders are located.
         
