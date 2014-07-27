@@ -4,6 +4,7 @@ getdata-005_CourseProject
 Coursera Course Project files
 
 These are notes on the files created for a Coursera course project.
+The data used is UCI's "Human Activity Recognition Using Smartphones Dataset".
 
 Files included are:
 
