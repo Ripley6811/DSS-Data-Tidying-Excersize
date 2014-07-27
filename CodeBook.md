@@ -18,7 +18,7 @@
             1-30    (30 subjects participated in this research)
         
 3. AVE-tBodyAcc-mean()-X
-    - Averaged value for all mean values of body acceleration in the X direction.
+    - Averaged value for all mean values of body acceleration in the X direction: numeric
     
             [-1,1]  (features were normalized to within -1.0 to 1.0)
 
