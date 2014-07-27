@@ -27,6 +27,12 @@ Files included are:
     - A 561-feature vector with time and frequency domain variables. 
     - Its activity label. 
     - An identifier of the subject who carried out the experiment.
+    
+    Each row of the new data set contains:
+    
+    - Activity label.
+    - The identifier of the subject who carried out the experiment.
+    - The average value for each series of 'mean' and 'std' data for each activity/subject combination.
 
 - *run_analysis.R*
 
