@@ -20,6 +20,14 @@ Files included are:
 
     Describes the format of the data columns and how it was derived.
     
+    Each record of the original data set contained:
+    
+    - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+    - Triaxial Angular velocity from the gyroscope. 
+    - A 561-feature vector with time and frequency domain variables. 
+    - Its activity label. 
+    - An identifier of the subject who carried out the experiment.
+
 - *run_analysis.R*
 
     **Description**:  Contains one method called "run_analysis" which does five things.
