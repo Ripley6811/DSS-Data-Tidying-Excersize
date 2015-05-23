@@ -1,9 +1,9 @@
-getdata-005_CourseProject
-=========================
+Data Tidying Exercise
+=====================
 
-Coursera Course Project files
+Project files
 
-These are notes on the files created for a Coursera course project.
+These are notes on the files included or produced in this data tidying project using R.
 The data used is UCI's "Human Activity Recognition Using Smartphones Dataset".
 
 Files included are:
